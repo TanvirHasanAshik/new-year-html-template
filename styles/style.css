@@ -1,0 +1,185 @@
+/* common style */
+* {
+    margin: 0;
+}
+
+header,
+main {
+    width: 1320px;
+    margin: auto;
+}
+
+/* Header section */
+.container {
+    margin-top: 50px;
+}
+
+header {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../resources/Banner\ Image.png');
+    background-size: cover;
+}
+
+.header-container {
+    width: 632px;
+    height: 246px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    color: #fff;
+}
+
+.header-container h2 {
+    font-size: 72px;
+}
+
+.header-container h5 {
+    font-size: 24px;
+}
+
+/* Main section */
+
+main {
+    text-align: center;
+}
+
+.main-section h2,
+p,
+h3,
+img {
+    padding-bottom: 20px;
+}
+
+.main-section h2 {
+    font-size: 46px;
+}
+
+.main-section h2,
+p {
+    color: rgb(255, 72, 0);
+}
+
+.main-section img {
+    width: 802px;
+    height: 500px;
+}
+
+/* Mid-night section */
+
+.mid-night {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.midnight-content {
+    width: 550px;
+    margin: 0 50px;
+}
+
+.midnight-content h1 {
+    font-size: 64px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.midnight-content p {
+    font-size: 18px;
+    color: #FFFFFF
+}
+
+.midnight-content button {
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+/* info section */
+
+.info {
+    height: 442px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, #e9e6e6, #fff);
+    align-items: center;
+}
+
+.info>div>h3 {
+    font-size: 30px;
+}
+
+.info>div>button {
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.info-primary-color {
+    color: rgb(247, 117, 11);
+}
+
+/* offer */
+
+.offer {
+    text-align: left;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.offer-coming {
+    width: 393px;
+}
+
+.offer-img {
+    width: 493px;
+}
+
+.offer-img>img {
+    border: 15px solid rgb(240, 92, 6);
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.offer-year {
+    width: 276px;
+}
+
+/* holidays section */
+
+
+.holiday-content>p {
+    margin: 20px;
+}
+
+.discount {
+    height: 662px;
+    background: url('../resources/Rectangle\ 2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.discount .gift-box {
+    display: flex;
+    align-items: center;
+}
+
+.discount .gift-discount {
+    position: relative;
+    top: 100px;
+    left: 90px;
+}
